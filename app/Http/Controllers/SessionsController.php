@@ -31,7 +31,7 @@ class SessionsController extends Controller
 
         $session->save();
 
-        return redirect('/session')->withSuccess('Uploaded successfully!');
+        return redirect('/session');
     }
     public function mondaySessions(Request $request)
     {
