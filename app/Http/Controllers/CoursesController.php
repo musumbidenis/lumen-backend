@@ -51,7 +51,7 @@ class CoursesController extends Controller
 
         $course->save();
 
-        return redirect('/course')->withSuccess('Uploaded successfully!');
+        return redirect('/course');
     }
 
     /**
