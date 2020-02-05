@@ -39,7 +39,7 @@ class UnitsController extends Controller
         
         $unit->save();
 
-        return redirect('/course')->withSuccess('Uploaded successfully!');
+        return redirect('/course');
     }
 
     /**
